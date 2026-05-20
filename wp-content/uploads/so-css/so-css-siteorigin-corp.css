@@ -489,7 +489,7 @@
   z-index: 2;
   width: fit-content;
   max-width: 850px;
-  padding: 100px 80px;
+  padding: 60px 48px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -650,7 +650,7 @@
   align-items: center;
   justify-content: center;
   padding: 32px 0;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .iorga-site .news-container {
@@ -689,7 +689,7 @@
 
 .iorga-site .news-card img {
   width: 100%;
-  height: 150px;
+  height: 210px;
   object-fit: cover;
 }
 
@@ -828,7 +828,6 @@
 
 .iorga-site .about-section {
   min-height: 30vh;
-  max-height: 30vh;
   flex-shrink: 0;
   width: 100%;
   background-color: #ffffff;
@@ -1787,7 +1786,6 @@
 .iorga-site .school-name span {
   font-size: 1rem;
   display: block;
-  align-self: flex-start; /* Align span to the left of its container */
 }
 .iorga-site .logo-placeholder {
   width: 42px;
@@ -1909,7 +1907,6 @@
 
   .iorga-site .about-section {
     min-height: 30vh;
-    max-height: 30vh;
     padding: 24px 16px;
     background-image: url("https://iorga.md/wp-content/uploads/2026/02/pang-yuhao-_kd5cxwZOK4-unsplash-scaled.jpg");
     background-size: cover;
@@ -2554,22 +2551,6 @@
   grid-column: 1 / -1;
   text-align: center;
   margin-bottom: 36px;
-}
-
-.iorga-site .contact-section .contact-info {
-  background-color: #f9fbff;
-  border: 1px solid #e4eaf4;
-  border-radius: 14px;
-  padding: 26px;
-  box-shadow: 0 8px 24px rgba(36, 107, 207, 0.08);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.iorga-site .contact-section .contact-info:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(36, 107, 207, 0.16);
 }
 
 .iorga-site .contact-section .contact-info h3 {
