@@ -26,8 +26,11 @@ wp-config.php
 # Example plugin
 /wp-content/plugins/hello.php
 
-# Uploads
-/wp-content/uploads/
+# Uploads (exclude all except SO CSS override)
+/wp-content/uploads/*
+!/wp-content/uploads/so-css
+/wp-content/uploads/so-css/*
+!/wp-content/uploads/so-css/so-css-siteorigin-corp.css
 
 # Log files
 *.log
