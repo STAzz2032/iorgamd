@@ -179,6 +179,7 @@
   height: 100%;
   margin: 0;
   padding: 0;
+  flex-wrap: nowrap;
 }
 
 /* Navigation Items - padding for spacing */
@@ -1230,7 +1231,44 @@
    10. RESPONSIVE BREAKPOINTS
    ========================================= */
 
-/* Tablet (768px - 1024px) */
+/* Large desktop compression (1200px - 1400px) */
+
+@media (max-width: 1400px) {
+  .iorga-site .nav-list {
+    gap: 4px;
+  }
+
+  .iorga-site .nav-link {
+    padding: 10px 6px;
+    font-size: 0.85rem;
+    letter-spacing: 0.1px;
+  }
+}
+
+/* Laptop compression (1100px - 1200px) */
+
+@media (max-width: 1200px) {
+  .iorga-site .nav-list {
+    gap: 2px;
+  }
+
+  .iorga-site .nav-link {
+    padding: 8px 5px;
+    font-size: 0.78rem;
+    letter-spacing: 0;
+  }
+
+  .iorga-site .nav-item {
+    padding: 0 3px;
+  }
+
+  .iorga-site .utility-area {
+    gap: 10px;
+    padding-left: 12px;
+  }
+}
+
+/* Tablet layout (footer, page sections — 1024px) */
 
 @media (max-width: 1024px) {
   .iorga-site .dn-value-item {
@@ -1249,20 +1287,11 @@
     width: 85px;
     height: 85px;
   }
-
-  .iorga-site .nav-list {
-    gap: 4px;
-  }
-
-  .iorga-site .nav-link {
-    padding: 8px 12px;
-    font-size: 0.8rem;
-  }
 }
 
-/* Tablet Portrait & Large Mobile (768px - 900px) */
+/* Tablet Portrait & Mobile — hamburger menu (max-width: 1100px) */
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   /* RESET TIMELINE 900px */
 
   .iorga-site .dn-timeline-mobile {
